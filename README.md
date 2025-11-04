@@ -24,7 +24,7 @@ Before running the script, you must set the following variables at the top of th
 
 | Variable | Description |
 | :---- | :---- |
-| :local DnsServer | The IP and port of your external DNS API server (e.g., "192.168.8.2:5380"). Leave empty ("") to disable external updates. |
+| :local DnsServer | The IP and port of your external DNS API server (e.g., "192.168.8.2:5380").  |
 | :local ApiToken | The security token required by your external DNS API. |
 | :local enableLogging | Set to true to enable detailed logging for troubleshooting; set to false for silent operation (recommended for scheduled runs). |
 
