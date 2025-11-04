@@ -4,6 +4,8 @@ This RouterOS script's **primary purpose is to provide Dynamic DNS (DDNS) synchr
 
 It uses the MikroTik's internal DNS cache (/ip dns static) as a **temporary, authoritative synchronization store** to maintain state and perform change detection. The main goal is to ensure devices receiving dynamic IP addresses are immediately resolvable by their human-assigned names network-wide.
 
+I run this script on a schedule, every 20 mins or so
+
 ## **Key Features**
 
 * **Primary External Sync:** Designed specifically to push and delete records on a configured **External DNS Server**.  
