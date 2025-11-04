@@ -1,4 +1,4 @@
-# **Mikrotik dhcp to Technictium DNS (MikroTik RouterOS Script)**
+# **Mikrotik DHCP to Technictium DNS **
 
 This RouterOS script's **primary purpose is to provide Dynamic DNS (DDNS) synchronization to an External DNS Server** (like Technitium DNS) via an HTTP API.
 
