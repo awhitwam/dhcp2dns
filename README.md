@@ -41,8 +41,4 @@ Using the comment field:
 - Avoids reliance on device-supplied hostnames, which are often inconsistent (especially for phones and tablets).
 - Provides a stable mapping even if the device’s DHCP-reported name changes.
 
-Example:
 
-* DHCP2DNS: Script finished. Added X new DNS entries.
-
-If enableLogging is set to true, highly detailed debug information regarding hostname selection, cleanup results, and record removals will also be logged.
